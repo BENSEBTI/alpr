@@ -42,6 +42,8 @@ class Alpr
       "-c eu"
     when :dz
       "-c dz"
+    when :au
+      "-c au"
     when :detect
       "--detect_region"
     else
